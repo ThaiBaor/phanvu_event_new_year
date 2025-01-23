@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>RÚT THĂM MAY MẮN</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <audio id="bubble-sound-effect" src="bubblepop-254773.mp3" hidden></audio>
+    <audio id="bg-sound-effect" src="bg-sound.mp3" loop hidden></audio>
+    <audio id="win-sound-effect" src="win-sound.mp3" hidden></audio>
+    <div>
+        <h1 class="title">RÚT THĂM MAY MẮN</h1>
+    </div>
+    <div>
+        <h2 class="subtitle" hidden>DANH SÁCH TRÚNG THƯỞNG</h2>
+    </div>
+    <div>
+        <h1 class="timer">30</h1>
+    </div>
+    <div class="grid-container-winner"></div>
+    <div>
+        <button id="btn-start" class="comic-button" onclick="startGame()"><span class="button_top">BẮT ĐẦU</span></button>
+        <button id="btn-continue" class="comic-button" onclick="continueGame()"><span class="button_top">TIẾP TỤC</span></button>
+        <button id="btn-list-player" class="comic-button" ><span class="button_top">XEM DANH SÁCH</span></button>
+    </div>
+    <div class="grid-container"></div>
+    <!-- Modal -->
+    <div id="result-modal">
+        <div id="result-modal-content">
+            <h1>🎉 XIN CHÚC MỪNG! 🎉</h1>
+            <p id="result-modal-text">You’ve achieved your goal!</p>
+            <button id="result-closeModal">ĐÓNG</button>
+        </div>
+    </div>
+    <div id="list-player-modal" hidden>
+        <div id="list-player-modal-content">
+            <h2>Danh sách người chơi</h2>
+            <div id="list-player-Table">
+                <!-- Rows will be dynamically generated -->
+            </div>
+            <button id="list-player-closeModal">ĐÓNG</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
