@@ -12,6 +12,7 @@
 .grid-item {
     border: 1px solid #263bb6be;
     text-align: center;
+    font-weight: bold;
     font-family: 'Arial', sans-serif;
     color: #333;
     padding: 10px;
@@ -24,7 +25,7 @@
     color: #fffefe;
     background-color: #b81d1d;
     /* Màu nền khi hover */
-    transform: scale(2.0);
+    transform: scale(2.7);
     /* Tăng kích thước khi hover */
 }
 
@@ -74,17 +75,17 @@ body {
 }
 #btn-list-player{
     position: absolute;
-    top: 39%;
-    left: 38% !important
+    top: 53%;
+    left: 93.5% !important
 }
 
 .title {
-    font-size: 70px;
+    font-size: 80px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     color: red;
     position: absolute;
-    left: 29%;
-    top: 30%;
+    left: 23%;
+    top: 27%;
 }
 
 .subtitle {

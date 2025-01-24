@@ -714,7 +714,7 @@ function startGame() {
     }
     currentIndex = 0;
     // Tổng thời gian 30 giây
-    totalTime = 30000;
+    totalTime = 13000;
     startCountdown(totalTime, timer);
     bgSound.play();
     // Thời gian đã trôi qua
@@ -731,7 +731,7 @@ function continueGame() {
     startGame();
 }
 function startCountdown(duration, displayElement) {
-    let timer = 32;
+    let timer = 15;
     const interval = setInterval(() => {
         // Hiển thị thời gian còn lại
         displayElement.textContent =
