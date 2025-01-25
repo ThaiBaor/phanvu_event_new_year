@@ -63,8 +63,8 @@ const players =
             "Department": "Phòng CNTT"
         },
         {
-            "Name": "Nguyễn Phan Thái Bảo",
-            "Department": "Phòng CNTT"
+            "Name": "Nguyễn Minh Luân",
+            "Department": "Mstar"
         },
         {
             "Name": "Nguyễn Minh Chánh",
